@@ -1,0 +1,23 @@
+<!-- navigationBar.html -->
+<nav>
+  <div class="logo">
+      <a href="/home">Alleviate</a>
+  </div>
+  <button class="menu-toggle" id="mobile-menu">
+      <span class="menu-icon"></span>
+  </button>
+  <ul class="nav-menu">
+      
+      <!-- Links visible only when logged in -->
+      <li class="auth-required"><a href="/home">Home</a></li>
+      <li class="auth-required"><a href="/chatbot">Chatbot</a></li>
+      <li class="auth-required"><a href="/logout" id="logout-link">Logout</a></li>
+      
+      <!-- Links visible only when logged out -->
+      <li class="no-auth"><a href="/login" id="login-link">Login</a></li>
+      <li class="no-auth"><a href="/register" id="register-link">Register</a></li>
+      
+      <!-- User initial -->
+      <li id="user-initial" class="auth-required" style="display: none;"></li>
+  </ul>
+</nav>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Page</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+  <script src="../static/js/chatbot.js" defer></script>
+</head>
+
+<body>
+
+    <div class="navbar-container" id="navbar-container"></div>
+   
+  <main>
+    <div class="chat-container">
+      <div class="chat-messages" id="chat-messages">
+        <p class="bot-message">How are you feeling today?</p>
+      </div>
+      <div class="options" id="response-buttons">
+        <button class="option-button" onclick="sendMessage('I am feeling overwhelmed, what are some techniques to help me')">I am feeling overwhelmed, what are some techniques to help me</button>
+        <button class="option-button" onclick="sendMessage('What are some helpful resources')">What are some helpful resources</button>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Ask anything...">
+        <button id="sendButton" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alleviate your Anxiety Today. All rights reserved. PK Corp</p>
+  </footer>
+  <script src="../static/js/navigation.js"></script>
+</body>
+
+</html>

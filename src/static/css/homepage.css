@@ -1,0 +1,96 @@
+.hero {
+    background-color: #7ac9f7;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#start-chat {
+    background-color: white;
+    color: #007bff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-chat:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    width: 500px;
+    height: auto; /* Changed height to auto */
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.feature-box h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.feature-box p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 10px; /* Added margin between paragraphs */
+}
+
+.feature-box span[role="img"] {
+    font-size: 1.8em;
+    margin-right: 8px;
+}
